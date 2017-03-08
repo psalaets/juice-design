@@ -103,10 +103,14 @@
         border-bottom: 3px solid black;
     }
 
+    td {
+        padding-top: 1rem;
+    }
 }
 
 .c-nutritional-facts__label {
     text-align: left;
+    vertical-align: top;
 }
 
 .c-nutritional-facts__value {
