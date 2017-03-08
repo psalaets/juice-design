@@ -82,7 +82,7 @@
 
 
 	// module
-	exports.push([module.id, ".asdf {\n  color: red; }\n", ""]);
+	exports.push([module.id, "* {\n  outline: 1px solid lightblue; }\n\n.u-float-right {\n  float: right; }\n\n.o-container {\n  width: 90%;\n  max-width: 1020px;\n  margin-left: auto;\n  margin-right: auto; }\n\n.o-nav-bar {\n  padding: 0;\n  display: inline-block; }\n  .o-nav-bar + .o-nav-bar {\n    margin-left: 1rem; }\n\n.o-nav-bar--position-right {\n  position: absolute;\n  right: 0; }\n\n.o-nav-bar__item {\n  display: inline-block; }\n  .o-nav-bar__item a {\n    padding: 1rem; }\n  .o-nav-bar__item + .o-nav-bar__item {\n    margin-left: 1rem; }\n\n.o-media {\n  display: flex; }\n\n.o-media__left {\n  flex: 0 0 auto; }\n  .o-media__left > * {\n    padding: 1rem; }\n\n.o-media__right {\n  flex: 1 1 0%; }\n  .o-media__right > * {\n    padding: 1rem; }\n\n.o-callout {\n  padding: 7rem;\n  position: relative; }\n\n.o-order-now {\n  text-align: center;\n  padding-top: 3rem; }\n\n.c-primary-nav {\n  text-align: center;\n  position: relative; }\n\n.c-primary-nav--position-center {\n  text-align: center; }\n\n.c-primary-nav--position-left {\n  text-align: left; }\n\n.c-increase-quantity {\n  position: absolute;\n  right: 0;\n  top: 5rem; }\n\n.c-nutritional-facts {\n  border-collapse: collapse;\n  width: 100%; }\n  .c-nutritional-facts thead {\n    border-bottom: 3px solid black; }\n\n.c-nutritional-facts__label {\n  text-align: left; }\n\n.c-nutritional-facts__value {\n  text-align: right; }\n\n.c-nutrition-title {\n  margin: 0; }\n\n.c-nutrition-subtitle {\n  margin: 0; }\n", ""]);
 
 	// exports
 
