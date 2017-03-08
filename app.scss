@@ -1,0 +1,122 @@
+* {
+    outline: 1px solid lightblue;
+}
+
+// Utilities
+
+.u-float-right {
+    float: right;
+}
+
+// Objects
+
+.o-container {
+    width: 90%;
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.o-nav-bar {
+    padding: 0;
+    display: inline-block;
+
+    + .o-nav-bar {
+        margin-left: 1rem;
+    }
+}
+
+.o-nav-bar--position-right {
+    position: absolute;
+    right: 0;
+}
+
+.o-nav-bar__item {
+    display: inline-block;
+
+    a {
+        padding: 1rem;
+    }
+
+    + .o-nav-bar__item {
+        margin-left: 1rem;
+    }
+}
+
+.o-media {
+    display: flex;
+}
+
+.o-media__left {
+    flex: 0 0 auto;
+
+    > * {
+        padding: 1rem;
+    }
+}
+
+.o-media__right {
+    flex: 1 1 0%;
+
+    > * {
+        padding: 1rem;
+    }
+}
+
+.o-callout {
+    padding: 7rem;
+    position: relative;
+}
+
+.o-order-now {
+    text-align: center;
+    padding-top: 3rem;
+    // padding-bottom: 3rem;
+}
+
+// Components
+
+.c-primary-nav {
+    text-align: center;
+    position: relative;
+}
+
+.c-primary-nav--position-center {
+    text-align: center;
+}
+
+.c-primary-nav--position-left {
+    text-align: left;
+}
+
+.c-increase-quantity {
+    position: absolute;
+    right: 0;
+    top: 5rem;
+}
+
+.c-nutritional-facts {
+    border-collapse: collapse;
+    width: 100%;
+
+    thead {
+        border-bottom: 3px solid black;
+    }
+
+}
+
+.c-nutritional-facts__label {
+    text-align: left;
+}
+
+.c-nutritional-facts__value {
+    text-align: right;
+}
+
+.c-nutrition-title {
+    margin: 0;
+}
+
+.c-nutrition-subtitle {
+    margin: 0;
+}
