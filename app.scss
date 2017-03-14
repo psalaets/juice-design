@@ -77,13 +77,18 @@
 .o-six-pack {
     display: flex;
     flex-wrap: wrap;
+
+    .o-six-pack__item {
+        flex: 1 1 33%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+
+        &:nth-of-type(1) {
+            background-color: red;
+        }
+    }
 }
 
-.o-six-pack__item {
-    flex: 1 1 33%;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
 
 // Components
 
