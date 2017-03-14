@@ -84,7 +84,27 @@
         padding-bottom: 3rem;
 
         &:nth-of-type(1) {
-            background-color: red;
+            background-color: #cb7844;
+        }
+
+        &:nth-of-type(2) {
+            background-color: #ffe1bd;
+        }
+
+        &:nth-of-type(3) {
+            background-color: #f8abb3;
+        }
+
+        &:nth-of-type(4) {
+            background-color: #a47969;
+        }
+
+        &:nth-of-type(5) {
+            background-color: #db7e5f;
+        }
+
+        &:nth-of-type(6) {
+            background-color: #f1d5ca;
         }
     }
 }
@@ -146,13 +166,10 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    // background-color: red;
 
     height: 12rem;
     text-align: center;
 }
-
-
 
 .c-benefit__title {
 
