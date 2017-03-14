@@ -77,38 +77,11 @@
 .o-six-pack {
     display: flex;
     flex-wrap: wrap;
-
-    .o-six-pack__item {
-        flex: 1 1 33%;
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-
-        &:nth-of-type(1) {
-            background-color: #cb7844;
-        }
-
-        &:nth-of-type(2) {
-            background-color: #ffe1bd;
-        }
-
-        &:nth-of-type(3) {
-            background-color: #f8abb3;
-        }
-
-        &:nth-of-type(4) {
-            background-color: #a47969;
-        }
-
-        &:nth-of-type(5) {
-            background-color: #db7e5f;
-        }
-
-        &:nth-of-type(6) {
-            background-color: #f1d5ca;
-        }
-    }
 }
 
+.o-six-pack__item {
+    flex: 1 1 33%;
+}
 
 // Components
 
@@ -166,9 +139,29 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-origin: content-box;
+
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
     height: 12rem;
     text-align: center;
+}
+
+$benefit-colors-by-position: (
+    1: #cb7844,
+    2: #ffe1bd,
+    3: #f8abb3,
+    4: #a47969,
+    5: #db7e5f,
+    6: #f1d5ca
+);
+
+
+@for $i from 1 through 6 {
+    .c-benefit--#{$i} {
+        background-color: map-get($benefit-colors-by-position, $i);
+    }
 }
 
 .c-benefit__title {
