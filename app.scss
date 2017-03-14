@@ -74,6 +74,17 @@
     // padding-bottom: 3rem;
 }
 
+.o-six-pack {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.o-six-pack-item {
+    flex: 1 1 33%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 // Components
 
 .c-primary-nav {
@@ -123,4 +134,29 @@
 
 .c-nutrition-subtitle {
     margin: 0;
+}
+
+.c-benefit {
+    background-image: url("https://www.delmonte.com/sites/default/files/btsl14.5_16297_cweb.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    // background-color: red;
+
+    height: 12rem;
+    text-align: center;
+}
+
+
+
+.c-benefit__title {
+
+}
+
+.c-benefit__caption {
+
+}
+
+.c-benefit__learn-more {
+    font-size: 2.5rem;
 }
